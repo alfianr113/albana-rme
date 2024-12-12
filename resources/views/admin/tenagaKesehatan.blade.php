@@ -76,38 +76,102 @@
                                     <thead>
                                         <tr>
                                             <th>No</th>
+                                            <th>Kode STR</th>
                                             <th>Nama Nakes</th>
-                                            <th>Nama Poli</th>
-                                            <th>Jadwal Praktik</th>
-                                            <th>Status Hari Ini</th>
+                                            <th>Unit Kerja</th>
+                                            <th>Kategori Nakes</th>
+                                            <th>No Telepon</th>
                                             <th style="width: 10%">Action</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
                                             <th>No</th>
+                                            <th>Kode STR</th>
                                             <th>Nama Nakes</th>
-                                            <th>Nama Poli</th>
-                                            <th>Jadwal Praktik</th>
-                                            <th>Status Hari Ini</th>
+                                            <th>Unit Kerja</th>
+                                            <th>Kategori Nakes</th>
+                                            <th>No Telepon</th>
                                             <th style="width: 10%">Action</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
+                                            <td>1758694</td>
                                             <td>Citra Kirana</td>
-                                            <td>Poli Umum</td> 
-                                            <td>Senin, 00:00:00 - 23:30:00</td>
-                                            <td>Tidak Tersedia</td>
+                                            <td>Poli Umum</td>
+                                            <td>Dokter Gigi</td>
+                                            <td>0816-9132-9831</td>
                                             <td>
                                                 <div class="form-button-action">
-                                                    <a type="button" data-toggle="tooltip"  href="/admin/tambahNakes" title="" class="btn btn-link btn-primary btn-lg">
-                                                        <i class="fa fa-edit"></i>
-                                                    </a>
-                                                    <button type="button" class="btn btn-danger btn-link" id="alert_demo_11">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
+                                                    
+                                                    <a href="/admin/tambahNakes" type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_11" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
+                                                    
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>1752144</td>
+                                            <td>Kirana Citra</td>
+                                            <td>Poli Umum</td>
+                                            <td>Dokter Umum</td>
+                                            <td>0816-9132-9831</td>
+                                            <td>
+                                                <div class="form-button-action">
+                                                    
+                                                    <a href="/admin/tambahNakes" type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_11" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
+                                                    
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>8619341</td>
+                                            <td>Amelia Nuraini</td>
+                                            <td>Pendaftaran</td>
+                                            <td>Pendaftaran</td>
+                                            <td>0871-1897-8181</td>
+                                            <td>
+                                                <div class="form-button-action">
+                                                    <a href="/admin/tambahNakes" type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_11" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
+                                                    
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>0888774</td>
+                                            <td>Dian Wahyuni</td>
+                                            <td>Farmasi</td>
+                                            <td>Apoteker</td>
+                                            <td>0853-5729-5988</td>
+                                            <td>
+                                                <div class="form-button-action">
+                                                    
+                                                    <a href="/admin/tambahNakes" type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_11" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
+                                                    
                                                 </div>
                                             </td>
                                         </tr>

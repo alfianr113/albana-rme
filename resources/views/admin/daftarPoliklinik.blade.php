@@ -203,12 +203,13 @@
                                             <td>Mitra Klinik</td>
                                             <td>
                                                 <div class="form-button-action">
-                                                    <button class="btn btn-link btn-primary btn-lg" data-toggle="modal" data-target="#ubahPoli">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-danger btn-link" id="alert_demo_10">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
+                                                
+                                                    <a type="button" class="btn btn-info btn-sm btn-border ml-1" data-toggle="modal" data-target="#ubahPoli" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_10" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -220,12 +221,12 @@
                                             <td>Mitra Klinik</td>
                                             <td>
                                                 <div class="form-button-action">
-                                                    <button class="btn btn-link btn-primary btn-lg" data-toggle="modal" data-target="#ubahPoli">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-danger btn-link" id="alert_demo_10">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
+                                                    <a type="button" class="btn btn-info btn-sm btn-border ml-1" data-toggle="modal" data-target="#ubahPoli" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_10" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -237,12 +238,12 @@
                                             <td>Mitra Klinik</td>
                                             <td>
                                                 <div class="form-button-action">
-                                                    <button class="btn btn-link btn-primary btn-lg" data-toggle="modal" data-target="#ubahPoli">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-danger btn-link" id="alert_demo_10">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
+                                                    <a type="button" class="btn btn-info btn-sm btn-border ml-1" data-toggle="modal" data-target="#ubahPoli" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_10" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -254,12 +255,12 @@
                                             <td>Mitra Klinik</td>
                                             <td>
                                                 <div class="form-button-action">
-                                                    <button class="btn btn-link btn-primary btn-lg" data-toggle="modal" data-target="#ubahPoli">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" class="btn btn-danger btn-link" id="alert_demo_10">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
+                                                    <a type="button" class="btn btn-info btn-sm btn-border ml-1" data-toggle="modal" data-target="#ubahPoli" >
+														<i class="fas fa-edit"></i>
+													</a>
+                                                    <a id="alert_demo_10" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fa fa-times"></i>
+													</a>
                                                 </div>
                                             </td>
                                         </tr>

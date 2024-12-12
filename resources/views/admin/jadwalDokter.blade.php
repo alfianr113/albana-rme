@@ -63,12 +63,7 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="d-flex align-items-center">
-                                
-                                <h4 class="card-title col-sm-8">Daftar Akun</h4>
-                                <span class="col-sm-2 mr-1"></span>
-                                <a href="/admin/tambahAkun"><button class="btn btn-primary btn-border">
-                                    Tambah Akun
-                                </button></a>
+                                <h4 class="card-title">Jadwal Dokter</h4>
                             </div>
                         </div>
                         <div class="card-body">
@@ -76,75 +71,58 @@
                                 <table id="add-row" class="display table table-striped table-hover" >
                                     <thead>
                                         <tr>
-                                            <th>No</th>
-                                            <th>Nama</th>
-                                            <th>Email</th>
-                                            <th>No. Telepon</th>
-                                            <th>Peran</th>
-                                            <th style="width: 10%">Action</th>
+                                            <th>Nama Dokter</th>
+                                            <th>Senin</th>
+                                            <th>Selasa</th>
+                                            <th>Rabu</th>
+                                            <th>Kamis</th>
+                                            <th>Jumat</th>
+                                            <th>Sabtu</th>
+                                            <th>Minggu</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>No</th>
-                                            <th>Nama</th>
-                                            <th>Email</th>
-                                            <th>No. Telepon</th>
-                                            <th>Peran</th>
-                                            <th style="width: 10%">Action</th>
+                                            <th>Nama Dokter</th>
+                                            <th>Senin</th>
+                                            <th>Selasa</th>
+                                            <th>Rabu</th>
+                                            <th>Kamis</th>
+                                            <th>Jumat</th>
+                                            <th>Sabtu</th>
+                                            <th>Minggu</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
                                         <tr>
-                                            <td>1</td>
-                                            <td>Super Admin</td>
-                                            <td>super@email.com</td>
-                                            <td>085995468754</td>
-                                            <td>SUPERADMIN</td>
-                                            <td>
-                                                <div class="form-button-action">
-                                                    <a href="/admin/tambahAkun" type="button" class="btn btn-info btn-sm btn-border ml-1" >
-														<i class="fas fa-edit"></i>
-													</a>
-                                                    <a id="alert_demo_8" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														<i class="fa fa-times"></i>
-													</a>
-                                                </div>
-                                            </td>
+                                            <td>Dr. Citra Kirana</td>
+                                            <td align="center">10:00 - 15:00</td>
+                                            <td align="center">-</td>
+                                            <td align="center">10:00 - 15:00</td>
+                                            <td align="center">10:00 - 15:00</td>
+                                            <td align="center">-</td>
+                                            <td align="center">13:00 - 18:00</td>
+                                            <td align="center">-</td>
                                         </tr>
                                         <tr>
-                                            <td>2</td>
-                                            <td>Admin Pendaftaran</td>
-                                            <td>pendaftaran@email.com</td>
-                                            <td>085991321544</td>
-                                            <td>USER</td>
-                                            <td>
-                                                <div class="form-button-action">
-                                                    <a href="/admin/tambahAkun" type="button" class="btn btn-info btn-sm btn-border ml-1" >
-														<i class="fas fa-edit"></i>
-													</a>
-                                                    <a id="alert_demo_8" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														<i class="fa fa-times"></i>
-													</a>
-                                                </div>
-                                            </td>
+                                            <td>Dr. Rafael Gustaf</td>
+                                            <td align="center">07:00 - 12:00</td>
+                                            <td align="center">-</td>
+                                            <td align="center">07:00 - 12:00</td>
+                                            <td align="center">-</td>
+                                            <td align="center">07:00 - 12:00</td>
+                                            <td align="center">-</td>
+                                            <td align="center">10:00 - 15:00</td>
                                         </tr>
                                         <tr>
-                                            <td>3</td>
-                                            <td>Admin Klinik Pintar</td>
-                                            <td>adminHC@email.com</td>
-                                            <td>085991312548</td>
-                                            <td>ADMINHC</td>
-                                            <td>
-                                                <div class="form-button-action">
-                                                    <a href="/admin/tambahAkun" type="button" class="btn btn-info btn-sm btn-border ml-1" >
-														<i class="fas fa-edit"></i>
-													</a>
-                                                    <a id="alert_demo_8" type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														<i class="fa fa-times"></i>
-													</a>
-                                                </div>
-                                            </td>
+                                            <td>Dr. Meilani Rianti</td>
+                                            <td align="center">12:00 - 18:00</td>
+                                            <td align="center">12:00 - 18:00</td>
+                                            <td align="center">12:00 - 18:00</td>
+                                            <td align="center">-</td>
+                                            <td align="center">07:00 - 12:00</td>
+                                            <td align="center">07:00 - 12:00</td>
+                                            <td align="center">07:00 - 12:00</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -156,8 +134,5 @@
         </div>
     </div>
 </div>
-
-
-
 
 @endsection

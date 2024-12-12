@@ -13,6 +13,11 @@
                         <form action="/admin/tenagaKesehatan">
                             <div class="card-body">
                                 <div class="form-group row">
+                                    <div class="col-sm-12">
+                                        <h4><center>Biodata Nakes</center></h4>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
                                     <label for="inputPassword3" class="col-sm-2 col-form-label">Kode Nakes Satu Sehat<span style="color:red">*</span></label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control" id="inputPassword3" placeholder="Masukan Kode Nakes Satu Sehat" name="no_rekam_medis" value="" required>
@@ -106,7 +111,7 @@
                                                 <input type="number" class="form-control" id="inputPassword3" placeholder="KD Pos" name="ktp_kodepos" required>
                                             </div>
                                         </div>
-                            </div>
+                            
                             <div class="form-group row">
                                     
                                 <label for="inputPassword3" class="col-sm-2 col-form-label">Tahun Pengalaman <span style="color:red">*</span></label>
@@ -149,8 +154,7 @@
                                     <input type="text" class="form-control" id="inputPassword3" name="no_telepon" placeholder="Masukan Surat Ijin Praktik" required>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                    
+                            <div class="form-group row">    
                                 <label for="inputPassword3" class="col-sm-2 col-form-label">Catatan <span style="color:red">*</span></label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" id="inputPassword3" name="no_telepon" placeholder="Masukan Catatan Khusus" required>
@@ -162,6 +166,121 @@
                                     <input type="file" class="form-control form-control-file" id="uploadImg2" name="uploadImg2" accept="image/*" required="">
                                 </div>
                             </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <h4><center>Bidang Nakes</center></h4>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <select class="form-control" name="status_pasien" required>
+                                        <option value="">-- Pilih Kategori Nakes --</option>
+                                        <option value="umum">Dokter Gigi</option>
+                                        <option value="gigi">Dokter Umum</option>
+                                        <option value="gigi">Dokter THT</option>
+                                        <option value="gigi">Dokter Mata</option>
+                                        <option value="anak">Pendaftaran</option>
+                                        <option value="anak">Perawat</option>
+                                        <option value="anak">Farmasi</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <select class="form-control" name="status_pasien" required>
+                                        <option value="">-- Pilih unit kerja --</option>
+                                        <option value="umum">Poli Umum</option>
+                                        <option value="gigi">Poli Gigi</option>
+                                        <option value="anak">Pendaftaran</option>
+                                        <option value="anak">Apoteker/farmasi</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <h4><center>Jadwal Kerja / Dokter</center></h4>
+                                </div>
+                            </div>
+                            <div class="form-group row">    
+                                <label for="inputPassword3" class="col-sm-1 col-form-label">Senin</label>
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>_
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>
+                                <div class="col-sm-1">
+                                    
+                                </div>
+                                <label for="inputPassword3" class="col-sm-1 col-form-label">Jumat</label>
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>_
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>
+                            </div>
+                            <div class="form-group row">    
+                                <label for="inputPassword3" class="col-sm-1 col-form-label">Selasa</label>
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>_
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>
+                                <div class="col-sm-1">
+                                    
+                                </div>
+                                <label for="inputPassword3" class="col-sm-1 col-form-label">Sabtu</label>
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>_
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>
+                            </div>
+                            <div class="form-group row">    
+                                <label for="inputPassword3" class="col-sm-1 col-form-label">Rabu</label>
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>_
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>
+                                <div class="col-sm-1">
+                                    
+                                </div>
+                                <label for="inputPassword3" class="col-sm-1 col-form-label">Minggu</label>
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>_
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>
+                            </div>
+                            <div class="form-group row">    
+                                <label for="inputPassword3" class="col-sm-1 col-form-label">Kamis</label>
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>_
+                                <div class="col-sm-2">
+                                    <input type="time" class="form-control" id="appt" name="appt" min="09:00" max="18:00" required />
+                                </div>
+                                <div class="col-sm-1">
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <br>
                             <!-- /.card-body -->
                             
                               

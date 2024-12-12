@@ -62,47 +62,8 @@
 				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Cari Pasien</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-											<form action="/admin/cariPasien2">
-											<div class="form-group row">
-												<div class="col-sm-4">
-													<input type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="Nama" required>
-												</div>
-												<div class="col-sm-4">
-													<input type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="NIK" required>
-												</div>
-												<div class="col-sm-4">
-													<input type="text" class="form-control" id="inputPassword3" name="no_rekam_medis" placeholder="No RM" required>
-												</div>
-											</div>
-											<div class="form-group row">
-												<div class="col-sm-12">
-													<span style="color:red">*Minimal Isi Salah Satu</span>
-												</div>
-											</div>
-											<button type="submit" class="btn btn-info float-right">Cari Pasien</button>
-											</form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 							<div class="d-flex align-items-center">
-								<h4 class="card-title">Daftar Pasien | 01 Januari 2025</h4>
-                                    <button type="button" class="btn btn-primary btn-border ml-auto" data-toggle="modal" data-target="#exampleModalCenter">
-                                        Cari Pasien
-                                    </button>
-                                <!-- Button trigger modal -->
-                            
+								<h4 class="card-title">Daftar Antrian Pengunjung | 01 Januari 2025</h4>
 							</div>
 						</div>
 						<div class="card-body">
@@ -113,8 +74,8 @@
 											<th>No</th>
 											<th>No. RM</th>
 											<th>Nama Pasien</th>
-											<th>NIK</th>
-											<th>Tanggal Daftar</th>
+											<th>Poli Tuju</th>
+											<th>Antrian</th>
 											<th style="width: 10%">Action</th>
 										</tr>
 									</thead>
@@ -123,156 +84,238 @@
 											<th>No</th>
 											<th>No. RM</th>
 											<th>Nama Pasien</th>
-											<th>NIK</th>
-											<th>Tanggal Daftar</th>
+											<th>Poli Tuju</th>
+											<th>Antrian</th>
 										</tr>
 									</tfoot>
 									<tbody>
 										<tr>
 											<td>1</td>
 											<td>00-00-90-35</td>
-											<td>Ny. Minami Hamabe</td>
-											<td>3287661991990205</td>
-											<td>01 - 01 - 2025</td>
+											<td>BAYI NYONYA FENNI SILVIA EFENDI</td>
+											<td>Poli Gigi</td>
+											<td>A1</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>2</td>
 											<td>00-00-90-34</td>
-											<td style="text-align: left;">Ny. Sudari</td>
-											<td>3287661991990210</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">SUDARI</td>
+											<td>Poli Umum</td>
+											<td>A2</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>3</td>
 											<td>00-00-90-33</td>
-											<td style="text-align: left;">Tn. Ricky Togu Gultom</td>
-											<td>3287661991980001</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">RICKY TOGU HAHOLONGAN GULTOM</td>
+											<td>Poli Umum</td>
+											<td>A3</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>4</td>
 											<td>00-00-90-32</td>
-											<td style="text-align: left;">Tn. Muhammad Arief</td>
-											<td>3287661991930521</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">MUHAMMAD ARIEF</td>
+											<td>Poli Umum</td>
+											<td>A4</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>5</td>
 											<td>00-00-90-31</td>
-											<td style="text-align: left;">Nn. Satiawati</td>
-											<td>3287661991930521</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">SATIAWATI</td>
+											<td>Poli Umum</td>
+											<td>A5</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>6</td>
 											<td>00-00-90-30</td>
-											<td style="text-align: left;">An. Muhammad Adam Rizki</td>
-											<td>3287661991930521</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">MUHAMAD ADAM RIZKI HASAN </td>
+											<td>Poli Umum</td>
+											<td>A6</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>7</td>
 											<td>00-00-90-29</td>
-											<td style="text-align: left;">Nn. Siti Rahmawati Ramadanti</td>
-											<td>3287661991930521</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">SITI RAHMAWATI RAMADANTI</td>
+											<td>Poli Gigi</td>
+											<td>A7</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>8</td>
 											<td>00-00-90-28</td>
-											<td style="text-align: left;">An. Elda Maharani</td>
-											<td>3287661991930521</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">ELIDA</td>
+											<td>Poli Gigi</td>
+											<td>A8</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>9</td>
 											<td>00-00-90-27</td>
-											<td style="text-align: left;">Tn. Zea Azucena </td>
-											<td>3287661991930521</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">ZEA AZUCENA </td>
+											<td>Poli Umum</td>
+											<td>A9</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>
 										<tr>
 											<td>10</td>
 											<td>00-00-90-26</td>
-											<td style="text-align: left;">Tn. Ed Rothtaylor</td>
-											<td>3287661991930521</td>
-											<td>01 - 01 - 2025</td>
+											<td style="text-align: left;">USEP HERMANTO</td>
+											<td>Poli Umum</td>
+											<td>A10</td>
 											<td>
 												<div class="form-button-action">
+													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+														<i class="fas fa-microphone"></i>
+													</button>
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													
+													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+														<i class="fas fa-check"></i>
+													</button>
+													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
+														<i class="fas fa-times"></i>
+													</button>
 												</div>
 											</td>
 										</tr>

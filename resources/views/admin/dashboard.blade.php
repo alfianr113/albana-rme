@@ -60,282 +60,162 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<div class="card">
-						<div class="card-header">
-							<div class="d-flex align-items-center">
-								<h4 class="card-title">Daftar Pengunjung</h4>
-								<a class="ml-auto" href="tambahPengunjung.html"><button class="btn btn-primary btn-border ">
-									Tambah Pengunjung
-								</button></a>
+						
+						<div class="row">
+							<div class="col-md-8">
+								<div class="card full-height">
+									<div class="card-body">
+										<div class="card-title">Statistik Hari Ini | 1 Januari 2025</div>
+										<div class="card-category">Informasi statistik harian klinik</div>
+										<div class="d-flex flex-wrap justify-content-around pb-2 pt-4">
+											<div class="px-2 pb-2 pb-md-0 text-center">
+												<div id="circles-1"></div>
+												<h6 class="fw-bold mt-3 mb-0">Pasien Baru</h6>
+											</div>
+											<div class="px-2 pb-2 pb-md-0 text-center">
+												<div id="circles-2"></div>
+												<h6 class="fw-bold mt-3 mb-0">Pengunjung</h6>
+											</div>
+											<div class="px-2 pb-2 pb-md-0 text-center">
+												<div id="circles-3"></div>
+												<h6 class="fw-bold mt-3 mb-0">Dilayani</h6>
+											</div>
+											<div class="px-2 pb-2 pb-md-0 text-center">
+												<div id="circles-4"></div>
+												<h6 class="fw-bold mt-3 mb-0">Obat Terjual</h6>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
+							<div class="col-md-4">
+								<div class="card">
+									<div class="card-body">
+										<div class="card-title fw-mediumbold">Pasien Baru</div>
+										<div class="card-list">
+											<div class="item-list">
+												<div class="avatar">
+													<img src="{{ asset('img/user.png') }}" alt="..." class="avatar-img rounded-circle">
+												</div>
+												<div class="info-user ml-3">
+													<div class="username">KASUMI ARIMURA</div>
+													<div class="status">RM : 00-995-991</div>
+												</div>
+												<button class="btn btn-icon btn-primary btn-round btn-xs">
+													<i class="fa fa-eye"></i>
+												</button>
+											</div>
+											<div class="item-list">
+												<div class="avatar">
+													<img src="{{ asset('img/user.png') }}" alt="..." class="avatar-img rounded-circle">
+												</div>
+												<div class="info-user ml-3">
+													<div class="username">HASHIMOTO KANNA</div>
+													<div class="status">RM : 00-995-990</div>
+												</div>
+												<button class="btn btn-icon btn-primary btn-round btn-xs">
+													<i class="fa fa-eye"></i>
+												</button>
+											</div>
+											<div class="item-list">
+												<div class="avatar">
+													<img src="{{ asset('img/user.png') }}" alt="..." class="avatar-img rounded-circle">
+												</div>
+												<div class="info-user ml-3">
+													<div class="username">SUZU HIROSE</div>
+													<div class="status">RM : 00-995-989</div>
+												</div>
+												<button class="btn btn-icon btn-primary btn-round btn-xs">
+													<i class="fa fa-eye"></i>
+												</button>
+											</div> 
+										</div>
+									</div>
+								</div>
+							</div>
+							
 						</div>
-						<div class="card-body">
-							<div class="table-responsive">
-								<table id="add-row" class="display table table-striped table-hover" >
-									<thead>
-										<tr>
-											<th>No</th>
-											<th>No. RM</th>
-											<th>Nama Pasien</th>
-											<th>NIK</th>
-											<th>Tempat Lahir</th>
-											<th>Tanggal Lahir</th>
-											<th>Tanggal Daftar</th>
-											<th style="width: 10%">Action</th>
-										</tr>
-									</thead>
-									<tfoot>
-										<tr>
-											<th>No</th>
-											<th>No. RM</th>
-											<th>Nama Pasien</th>
-											<th>NIK</th>
-											<th>Tempat Lahir</th>
-											<th>Tanggal Lahir</th>
-											<th>Tanggal Daftar</th>
-										</tr>
-									</tfoot>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>00-00-90-35</td>
-											<td>BAYI NYONYA FENNI SILVIA EFENDI</td>
-											<td>3603120...</td>
-											<td>TANGERANG</td>
-											<td>09 - 04 - 2024</td>
-											<td>15 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<div class="modal fade" id="terimaPengunjung" tabindex="-1" role="dialog" aria-hidden="true">
-														<div class="modal-dialog modal-sm" role="document">
-															<div class="modal-content">
-																<div class="modal-header border-0">
-																	<h5 class="modal-title">
-																		<span class="fw-mediumbold">
-																		Pilih Poliklinik dan Dokter
-																	</h5>
-																	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-																		<span aria-hidden="true">&times;</span>
-																	</button>
-																</div>
-																<div class="modal-body">
-																	<form action="pengunjung.html">
-																		<div class="form-group row">
-																			<label for="inputPassword3" class="col-sm-4 col-form-label">Poliklinik</label>
-																			<div class="col-sm-8">
-																				<select class="form-control" name="status_pasien" required>
-																					<option value="">-- Pilih Poliklinik --</option>
-																					<option value="umum">Poli Umum</option>
-																					<option value="gigi">Poli Gigi</option>
-																					<option value="anak">Poli Anak</option>
-																				</select>
-																			</div>
-																		</div>
-																		<div class="form-group row">
-																			<label for="inputPassword3" class="col-sm-4 col-form-label">Dokter</label>
-																			<div class="col-sm-8">
-																				<select class="form-control" name="status_pasien" required>
-																					<option value="">-- Pilih Dokter --</option>
-																					<option value="umum">dr. Reni</option>
-																					<option value="gigi">dr. Agus</option>
-																					<option value="anak">dr. Iwan</option>
-																				</select>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="modal-footer border-0">
-																		<button type="submit" id="addRowButton" class="btn btn-primary">Simpan</button>
-																		<button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
-																	</div>
-																</form>
-															</div>
-														</div>
-													</div>
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>2</td>
-											<td>00-00-90-34</td>
-											<td style="text-align: left;">SUDARI</td>
-											<td>3603120...</td>
-											<td>TANGERANG </td>
-											<td>01 - 11 - 1973</td>
-											<td>15 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>3</td>
-											<td>00-00-90-33</td>
-											<td style="text-align: left;">RICKY TOGU HAHOLONGAN GULTOM</td>
-											<td>3603123...</td>
-											<td>BANDUNG</td>
-											<td>31 - 03 - 1979</td>
-											<td>15 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>4</td>
-											<td>00-00-90-32</td>
-											<td style="text-align: left;">MUHAMMAD ARIEF</td>
-											<td>3603121...</td>
-											<td>PATI</td>
-											<td>11 - 09 - 1994</td>
-											<td>15 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>5</td>
-											<td>00-00-90-31</td>
-											<td style="text-align: left;">SATIAWATI</td>
-											<td>3603295...</td>
-											<td>TANGERANG </td>
-											<td>15 - 02 - 1978</td>
-											<td>14 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>6</td>
-											<td>00-00-90-30</td>
-											<td style="text-align: left;">MUHAMAD ADAM RIZKI HASAN </td>
-											<td>3603292...</td>
-											<td>TANGERANG </td>
-											<td>26 - 07 - 2005</td>
-											<td>14 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>7</td>
-											<td>00-00-90-29</td>
-											<td style="text-align: left;">SITI RAHMAWATI RAMADANTI</td>
-											<td>3201296...</td>
-											<td>BOGOR</td>
-											<td>25 - 09 - 2007</td>
-											<td>14 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>8</td>
-											<td>00-00-90-28</td>
-											<td style="text-align: left;">ELIDA</td>
-											<td>3201294...</td>
-											<td>TANGERANG </td>
-											<td>04 - 05 - 1983</td>
-											<td>14 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>9</td>
-											<td>00-00-90-27</td>
-											<td style="text-align: left;">ZEA AZUCENA </td>
-											<td>3603124...</td>
-											<td>TANGERANG </td>
-											<td>04 - 05 - 2020</td>
-											<td>14 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>10</td>
-											<td>00-00-90-26</td>
-											<td style="text-align: left;">USEP HERMANTO</td>
-											<td>3601280...</td>
-											<td>PANDEGLANG</td>
-											<td>04 - 08 - 1992</td>
-											<td>13 - 07 - 2024</td>
-											<td>
-												<div class="form-button-action">
-													<button type="button" class="btn btn-success btn-sm btn-border" data-toggle="modal" data-target="#terimaPengunjung">
-														Terima
-													</button>
-													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
-														Batal
-													</button>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
+						<!-- TimeLine -->
+					<h4 class="page-title">Riwayat Aktivitas | 1 Januari 2025</h4>
+					<div class="row">
+						<div class="col-md-12">
+							
+							<ul class="timeline">
+								<li>
+									<div class="timeline-badge info"><i class="icon-user-follow"></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Kunjungan Terbaru</h4>
+										</div>
+										<div class="timeline-body">
+											<p><span style="color: red">"MINAMI HAMABE"</span> baru saja melakukan pendaftaran untuk <span style="color: red">Kunjungan</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge warning"><i class="flaticon-alarm-1"></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Antrian Saat Ini</h4>
+										</div>
+										<div class="timeline-body">
+											<p>Nomor antrian saat ini adalah <span style="color: red">A5</span> atas nama <span style="color: red">"ALFIAN RAHMAN"</span></p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline-badge success"><i class="flaticon-analytics"></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Pelayanan Terbaru</h4>
+										</div>
+										<div class="timeline-body">
+											<p>Saat ini, <span style="color: red">"BAYU SUPRIATNA"</span> sedang mendapatkan pelayanan dari dokter <span style="color: red">"AGUS MAHENDRA"</span> pada poli <span style="color: red">"UMUM"</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge danger"><i class="flaticon-box-1"></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Stok Obat</h4>
+										</div>
+										<div class="timeline-body">
+											<p>Stok Obat <span style="color: red">"MICROLAX SUPP"</span> saat ini tersisa sebanyak<span style="color: red">"1 Tube"</span></p>
+										</div>
+									</div>
+								</li>
+								
+								<li>
+									<div class="timeline-badge secondary"><i class="flaticon-credit-card"></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Pembayaran</h4>
+										</div>
+										<div class="timeline-body">
+											<p><span style="color: red">"EDWARD ELRIC"</span> baru saja melakukan pembayaran sebesar <span style="color: red">"Rp125.000"</span></p>
+											
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge dark"><i class="flaticon-calendar"></i></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4 class="timeline-title">Jadwal Dokter</h4>
+										</div>
+										<div class="timeline-body">
+											<p>Hari ini : <br>
+												<span style="color: red">Dr.Tirta</span> hadir dari pukul <span style="color: red">10:00 - 14:00</span><br>
+												<span style="color: red">Dr.Rafel</span> hadir dari pukul <span style="color: red">11:00 - 15:00</span><br> 
+												<span style="color: red">Dr.Juna</span> hadir dari pukul <span style="color: red">15:00 - 20:00</span></p>
+										</div>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
+						
 				</div>
 			</div>
 		</div>
