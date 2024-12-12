@@ -135,5 +135,332 @@
             });
         });
     </script>
+    <script>
+        //== Class definition
+        var SweetAlert2Demo = function() {
+    
+            //== Demos
+            var initDemos = function() {
+                //== Sweetalert Demo 1
+                $('#alert_demo_1').click(function(e) {
+                    swal('Good job!', {
+                        buttons: {        			
+                            confirm: {
+                                className : 'btn btn-success'
+                            }
+                        },
+                    });
+                });
+    
+                //== Sweetalert Demo 2
+                $('#alert_demo_2').click(function(e) {
+                    swal("Here's the title!", "...and here's the text!", {
+                        buttons: {        			
+                            confirm: {
+                                className : 'btn btn-success'
+                            }
+                        },
+                    });
+                });
+    
+                //== Sweetalert Demo 3
+                $('#alert_demo_3_1').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon : "warning",
+                        buttons: {        			
+                            confirm: {
+                                className : 'btn btn-warning'
+                            }
+                        },
+                    });
+                });
+    
+                $('#alert_demo_3_2').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon : "error",
+                        buttons: {        			
+                            confirm: {
+                                className : 'btn btn-danger'
+                            }
+                        },
+                    });
+                });
+    
+                $('#alert_demo_3_3').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon : "success",
+                        buttons: {        			
+                            confirm: {
+                                className : 'btn btn-success'
+                            }
+                        },
+                    });
+                });
+    
+                $('#alert_demo_3_4').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon : "info",
+                        buttons: {        			
+                            confirm: {
+                                className : 'btn btn-info'
+                            }
+                        },
+                    });
+                });
+    
+                //== Sweetalert Demo 4
+                $('#alert_demo_4').click(function(e) {
+                    swal({
+                        title: "Good job!",
+                        text: "You clicked the button!",
+                        icon: "success",
+                        buttons: {
+                            confirm: {
+                                text: "Confirm Me",
+                                value: true,
+                                visible: true,
+                                className: "btn btn-success",
+                                closeModal: true
+                            }
+                        }
+                    });
+                });
+    
+                $('#alert_demo_5').click(function(e){
+                    swal({
+                        title: 'Input Something',
+                        html: '<br><input class="form-control" placeholder="Input Something" id="input-field">',
+                        content: {
+                            element: "input",
+                            attributes: {
+                                placeholder: "Input Something",
+                                type: "text",
+                                id: "input-field",
+                                className: "form-control"
+                            },
+                        },
+                        buttons: {
+                            cancel: {
+                                visible: true,
+                                className: 'btn btn-danger'
+                            },        			
+                            confirm: {
+                                className : 'btn btn-success'
+                            }
+                        },
+                    }).then(
+                    function() {
+                        swal("", "You entered : " + $('#input-field').val(), "success");
+                    }
+                    );
+                });
+    
+                $('#alert_demo_6').click(function(e) {
+                    swal("This modal will disappear soon!", {
+                        buttons: false,
+                        timer: 3000,
+                    });
+                });
+    
+                $('#alert_demo_7').click(function(e) {
+                    swal({
+                        title: 'Are you sure?',
+                        text: "You won't be able to revert this!",
+                        type: 'warning',
+                        buttons:{
+                            confirm: {
+                                text : 'Yes, delete it!',
+                                className : 'btn btn-success'
+                            },
+                            cancel: {
+                                visible: true,
+                                className: 'btn btn-danger'
+                            }
+                        }
+                    }).then((Delete) => {
+                        if (Delete) {
+                            swal({
+                                title: 'Deleted!',
+                                text: 'Your file has been deleted.',
+                                type: 'success',
+                                buttons : {
+                                    confirm: {
+                                        className : 'btn btn-success'
+                                    }
+                                }
+                            });
+                        } else {
+                            swal.close();
+                        }
+                    });
+                });
+    
+                $('#alert_demo_8').click(function(e) {
+                    swal({
+                        title: 'Yakin Hapus Pengguna ?',
+                        text: "Anda tidak akan dapat mengembalikannya !",
+                        type: 'warning',
+                        buttons:{
+                            cancel: {
+                                visible: true,
+                                text : 'Tidak, Batalkan !',
+                                className: 'btn btn-danger'
+                            },        			
+                            confirm: {
+                                text : 'Ya, Hapus Saja !',
+                                className : 'btn btn-success'
+                            }
+                        }
+                    }).then((willDelete) => {
+                        if (willDelete) {
+                            swal("Poof! Data Pengguna Berhasil Dihapus !", {
+                                icon: "success",
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        } else {
+                            swal("Data Pengguna Berhasil Diamankan !", {
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+                $('#alert_demo_9').click(function(e) {
+                    swal({
+                        title: 'Yakin Hapus Penjamin ?',
+                        text: "Anda tidak akan dapat mengembalikannya !",
+                        type: 'warning',
+                        buttons:{
+                            cancel: {
+                                visible: true,
+                                text : 'Tidak, Batalkan !',
+                                className: 'btn btn-danger'
+                            },        			
+                            confirm: {
+                                text : 'Ya, Hapus Saja !',
+                                className : 'btn btn-success'
+                            }
+                        }
+                    }).then((willDelete) => {
+                        if (willDelete) {
+                            swal("Poof! Data Penjamin Berhasil Dihapus !", {
+                                icon: "success",
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        } else {
+                            swal("Data Penjamin Berhasil Diamankan !", {
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+
+                $('#alert_demo_10').click(function(e) {
+                    swal({
+                        title: 'Yakin Hapus Poli ?',
+                        text: "Anda tidak akan dapat mengembalikannya !",
+                        type: 'warning',
+                        buttons:{
+                            cancel: {
+                                visible: true,
+                                text : 'Tidak, Batalkan !',
+                                className: 'btn btn-danger'
+                            },        			
+                            confirm: {
+                                text : 'Ya, Hapus Saja !',
+                                className : 'btn btn-success'
+                            }
+                        }
+                    }).then((willDelete) => {
+                        if (willDelete) {
+                            swal("Poof! Data Poli Berhasil Dihapus !", {
+                                icon: "success",
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        } else {
+                            swal("Data Poli Berhasil Diamankan !", {
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+
+                $('#alert_demo_11').click(function(e) {
+                    swal({
+                        title: 'Yakin Hapus Nakes ?',
+                        text: "Anda tidak akan dapat mengembalikannya !",
+                        type: 'warning',
+                        buttons:{
+                            cancel: {
+                                visible: true,
+                                text : 'Tidak, Batalkan !',
+                                className: 'btn btn-danger'
+                            },        			
+                            confirm: {
+                                text : 'Ya, Hapus Saja !',
+                                className : 'btn btn-success'
+                            }
+                        }
+                    }).then((willDelete) => {
+                        if (willDelete) {
+                            swal("Poof! Data Nakes Berhasil Dihapus !", {
+                                icon: "success",
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        } else {
+                            swal("Data Nakes Berhasil Diamankan !", {
+                                buttons : {
+                                    confirm : {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+    
+            };
+    
+            return {
+                //== Init
+                init: function() {
+                    initDemos();
+                },
+            };
+        }();
+    
+        //== Class Initialization
+        jQuery(document).ready(function() {
+            SweetAlert2Demo.init();
+        });
+    </script>
+    
 </body>
 </html>

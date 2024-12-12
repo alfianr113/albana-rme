@@ -9,7 +9,7 @@
         </button>
         <button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
         <!-- Logo Header -->
-        <a href="#" class="logo d-flex align-items-center">
+        <a href="/admin/dashboard" class="logo d-flex align-items-center">
             {{-- harusnya kalo diklik logo muncul update version dan log version --}}
             <img src="../img/albanaputih.png" width="100px" alt="navbar brand" class="navbar-brand">
         </a>
@@ -42,7 +42,7 @@
                         <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"
                             aria-expanded="false">
                             <div class="avatar-sm">
-                                <img src="../img/profile.jpg" alt="..."
+                                <img src="{{ asset('img/user.png') }}" alt="..."
                                     class="avatar-img rounded-circle">
                             </div>
                         </a>
@@ -50,11 +50,11 @@
                             <div class="dropdown-user-scroll scrollbar-outer">
                                 <li>
                                     <div class="user-box">
-                                        <div class="avatar-lg"><img src="../img/profile.jpg"
+                                        <div class="avatar-lg"><img src="{{ asset('img/user.png') }}"
                                                 alt="image profile" class="avatar-img rounded"></div>
                                         <div class="u-text">
-                                            <h4>Hizrian</h4>
-                                            <p class="text-muted">hello@example.com</p>
+                                            <h4>Albana</h4>
+                                            <p class="text-muted">albanakes@gmail.com</p>
                                         </div>
                                     </div>
                                 </li>

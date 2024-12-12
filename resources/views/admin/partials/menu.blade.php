@@ -14,10 +14,10 @@
                 <div class="navbar-dropdown animated fadeIn">
                     <ul>
                         <li>
-                            <a href="pasien.html">Pasien</a>
+                            <a href="/admin/pasien">Pasien</a>
                         </li>
                         <li>
-                            <a href="pengunjung.html">Pengunjung</a>
+                            <a href="/admin/pengunjung">Pengunjung</a>
                         </li>
                     </ul>
                 </div>
@@ -107,6 +107,8 @@
                                 <li><a href="kamusObat.html">Kamus Obat Elektronik</a></li>
                                 <li><a href="programPelatihan.html">Pelatihan Integrasi</a></li>
                                 <li><a href="programPelatihan.html">Pelatihan Pengguna Aplikasi</a></li>
+                                <li><a href="programPelatihan.html">Riwayat Versi Sistem</a></li>
+                                <li><a href="programPelatihan.html">Customer Service</a></li>
                             </ul>
                         </div>
                     </div>
@@ -121,19 +123,19 @@
                     <ul>
                         <p class="category-heading">Data-Data Klinik</p>
                         <li>
-                            <a href="informasiKlinik.html">Informasi Klinik</a>
+                            <a href="/admin/informasiKlinik">Informasi Klinik</a>
                         </li>
                         <li>
-                            <a href="daftarPengguna.html">Hak Akses Pengguna</a>
+                            <a href="/admin/daftarPengguna">Pengguna Aplikasi</a>
                         </li>
                         <li>
-                            <a href="daftarPenjamin.html">Jaminan Kesehatan</a>
+                            <a href="/admin/daftarPenjamin">Jaminan Kesehatan</a>
                         </li>
                         <li>
-                            <a href="daftarPoliklinik.html">Poliklinik</a>
+                            <a href="/admin/daftarPoliklinik">Poliklinik</a>
                         </li>
                         <li>
-                            <a href="tenagaKesehatan.html">Tenaga Kesehatan</a>
+                            <a href="/admin/tenagaKesehatan">Tenaga Kesehatan</a>
                         </li>
                     </ul>
                 </div>
@@ -146,16 +148,16 @@
                 <div class="navbar-dropdown animated fadeIn">
                     <ul>
                         <li>
-                            <a href="laporanPendapatan.html">Laporan Pendapatan</a>
+                            <a href="#">Laporan Pendapatan</a>
                         </li>
                         <li>
-                            <a href="laporanLayanan.html">Laporan Kunjungan</a>
+                            <a href="#">Laporan Kunjungan</a>
                         </li>
                         <li>
-                            <a href="laporanPenyakit.html">Laporan Penyakit</a>
+                            <a href="#">Laporan Penyakit</a>
                         </li>
                         <li>
-                            <a href="laporanKomisi.html">Laporan Obat & Alkes</a>
+                            <a href="#">Laporan Obat & Alkes</a>
                         </li>
                     </ul>
                 </div>
@@ -168,16 +170,16 @@
                 <div class="navbar-dropdown animated fadeIn">
                     <ul>
                         <li>
-                            <a href="grafikPendapatan.html">Grafik Pendapatan</a>
+                            <a href="#">Grafik Pendapatan</a>
                         </li>
                         <li>
-                            <a href="grafikLayanan.html">Grafik Kunjungan</a>
+                            <a href="#">Grafik Kunjungan</a>
                         </li>
                         <li>
-                            <a href="grafikInventori.html">Grafik Penyakit</a>
+                            <a href="#">Grafik Penyakit</a>
                         </li>
                         <li>
-                            <a href="grafikKomisi.html">Grafik Obat & Alkes</a>
+                            <a href="#">Grafik Obat & Alkes</a>
                         </li>
                     </ul>
                 </div>
