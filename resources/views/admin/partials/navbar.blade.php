@@ -59,9 +59,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">Account Setting</a>
+                                    <a class="dropdown-item" href="#">Ubah Password</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="/">Logout</a>
+                                    <a class="dropdown-item" href="/">Keluar</a>
                                 </li>
                             </div>
                         </ul>

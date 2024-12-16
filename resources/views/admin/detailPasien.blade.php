@@ -33,16 +33,16 @@
                                                             <div class="col-9">
                                                                 <h4 class="bg-info" style="color: white"><center>Tn. Ricky Togu Haholongan Gultom</center></h4>
                                                                 <center>
-                                                                <a href="#"><button type="button" class="btn btn-icon btn-round btn-primary">
+                                                                <a href="#Print"><button type="button" class="btn btn-icon btn-round btn-primary">
                                                                     <i class="fas fa-print"></i>
                                                                 </button></a>
-                                                                <a href="#"><button type="button" class="btn btn-icon btn-round btn-info">
-                                                                    <i class="fas fa-clipboard-check"></i>
+                                                                <a href="#GeneralConsent"><button type="button" class="btn btn-icon btn-round btn-info">
+                                                                    <i class="fas fa-file-signature"></i>
                                                                 </button></a>
                                                                 <a href="/admin/ubahPasien"><button type="button" class="btn btn-icon btn-round btn-success">
                                                                     <i class="fas fa-edit"></i>
                                                                 </button></a>
-                                                                <a href="#"><button type="button" class="btn btn-icon btn-round btn-danger">
+                                                                <a href="#Delete"><button type="button" class="btn btn-icon btn-round btn-danger">
                                                                     <i class="fas fa-times"></i>
                                                                 </button></a> <br>
                                                                 </center>
@@ -357,7 +357,7 @@
                                                                     <p class="text-muted small mb-2">: Pasien Asuransi BPJS</p>
                                                                 </div>
                                                                 <div class="col-12">
-                                                                    <center><a href="#" type="button" class="btn btn-info">Detail</a></center>
+                                                                    <center><a href="/admin/anamnesis" type="button" class="btn btn-info">Detail</a></center>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -407,7 +407,7 @@
                                                                     <p class="text-muted small mb-2">: Pasien Asuransi BPJS</p>
                                                                 </div>
                                                                 <div class="col-12">
-                                                                    <center><a href="#" type="button" class="btn btn-info">Detail</a></center>
+                                                                    <center><a href="/admin/anamnesis" type="button" class="btn btn-info">Detail</a></center>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -457,7 +457,7 @@
                                                                     <p class="text-muted small mb-2">: Pasien Asuransi BPJS</p>
                                                                 </div>
                                                                 <div class="col-12">
-                                                                    <center><a href="#" type="button" class="btn btn-info">Detail</a></center>
+                                                                    <center><a href="/admin/anamnesis" type="button" class="btn btn-info">Detail</a></center>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -507,7 +507,7 @@
                                                                     <p class="text-muted small mb-2">: Pasien Asuransi BPJS</p>
                                                                 </div>
                                                                 <div class="col-12">
-                                                                    <center><a href="#" type="button" class="btn btn-info">Detail</a></center>
+                                                                    <center><a href="/admin/anamnesis" type="button" class="btn btn-info">Detail</a></center>
                                                                 </div>
                                                             </div>
                                                         </div>

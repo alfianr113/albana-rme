@@ -92,7 +92,7 @@
 										<tr>
 											<td>1</td>
 											<td>00-00-90-35</td>
-											<td>BAYI NYONYA FENNI SILVIA EFENDI</td>
+											<td>An. Fenni Silvia Efendi</td>
 											<td>Poli Gigi</td>
 											<td>A1</td>
 											<td>
@@ -103,9 +103,9 @@
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+													<a href="/admin/pelayananKunjungan" type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
-													</button>
+													</a>
 													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
 														<i class="fas fa-times"></i>
 													</button>
@@ -115,7 +115,7 @@
 										<tr>
 											<td>2</td>
 											<td>00-00-90-34</td>
-											<td style="text-align: left;">SUDARI</td>
+											<td style="text-align: left;">Tn. Sudari</td>
 											<td>Poli Umum</td>
 											<td>A2</td>
 											<td>
@@ -126,9 +126,9 @@
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+													<a href="/admin/pelayananKunjungan" type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
-													</button>
+													</a>
 													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
 														<i class="fas fa-times"></i>
 													</button>
@@ -138,7 +138,7 @@
 										<tr>
 											<td>3</td>
 											<td>00-00-90-33</td>
-											<td style="text-align: left;">RICKY TOGU HAHOLONGAN GULTOM</td>
+											<td style="text-align: left;">Tn. Ricky Togu Haholongan Gultom</td>
 											<td>Poli Umum</td>
 											<td>A3</td>
 											<td>
@@ -149,9 +149,9 @@
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+													<a href="/admin/pelayananKunjungan" type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
-													</button>
+													</a>
 													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
 														<i class="fas fa-times"></i>
 													</button>
@@ -161,7 +161,7 @@
 										<tr>
 											<td>4</td>
 											<td>00-00-90-32</td>
-											<td style="text-align: left;">MUHAMMAD ARIEF</td>
+											<td style="text-align: left;">Tn. Muhammad Arief</td>
 											<td>Poli Umum</td>
 											<td>A4</td>
 											<td>
@@ -172,9 +172,9 @@
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+													<a href="/admin/pelayananKunjungan" type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
-													</button>
+													</a>
 													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
 														<i class="fas fa-times"></i>
 													</button>
@@ -184,7 +184,7 @@
 										<tr>
 											<td>5</td>
 											<td>00-00-90-31</td>
-											<td style="text-align: left;">SATIAWATI</td>
+											<td style="text-align: left;">Nn. Satiawati</td>
 											<td>Poli Umum</td>
 											<td>A5</td>
 											<td>
@@ -195,9 +195,9 @@
 													<a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
+													<a href="/admin/pelayananKunjungan" type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
-													</button>
+													</a>
 													<button type="button" class="btn btn-danger btn-sm btn-border ml-1" >
 														<i class="fas fa-times"></i>
 													</button>
@@ -207,7 +207,7 @@
 										<tr>
 											<td>6</td>
 											<td>00-00-90-30</td>
-											<td style="text-align: left;">MUHAMAD ADAM RIZKI HASAN </td>
+											<td style="text-align: left;">Tn. Muhamad Adam Rizki Hasan </td>
 											<td>Poli Umum</td>
 											<td>A6</td>
 											<td>
@@ -230,7 +230,7 @@
 										<tr>
 											<td>7</td>
 											<td>00-00-90-29</td>
-											<td style="text-align: left;">SITI RAHMAWATI RAMADANTI</td>
+											<td style="text-align: left;">Ny. Siti Rahmawati Ramadanti</td>
 											<td>Poli Gigi</td>
 											<td>A7</td>
 											<td>
@@ -253,7 +253,7 @@
 										<tr>
 											<td>8</td>
 											<td>00-00-90-28</td>
-											<td style="text-align: left;">ELIDA</td>
+											<td style="text-align: left;">Nn. Elida</td>
 											<td>Poli Gigi</td>
 											<td>A8</td>
 											<td>
@@ -276,7 +276,7 @@
 										<tr>
 											<td>9</td>
 											<td>00-00-90-27</td>
-											<td style="text-align: left;">ZEA AZUCENA </td>
+											<td style="text-align: left;">Nn. Zea Azucena </td>
 											<td>Poli Umum</td>
 											<td>A9</td>
 											<td>
@@ -299,7 +299,7 @@
 										<tr>
 											<td>10</td>
 											<td>00-00-90-26</td>
-											<td style="text-align: left;">USEP HERMANTO</td>
+											<td style="text-align: left;">Tn. Usep Hermanto</td>
 											<td>Poli Umum</td>
 											<td>A10</td>
 											<td>

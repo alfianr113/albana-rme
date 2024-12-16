@@ -5,60 +5,6 @@
 	<div class="container">
 		<div class="page-inner">
 			<div class="row">
-				<div class="col-sm-6 col-lg-3">
-					<div class="card p-3">
-						<div class="d-flex align-items-center">
-							<span class="stamp stamp-md bg-secondary mr-3">
-								<i class="fas fa-notes-medical"></i>
-							</span>
-							<div>
-								<h5 class="mb-1"><b><a href="#">28436 <small>Total Kunjungan</small></a></b></h5>
-								<small class="text-muted">240 Kunjungan Hari ini</small>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<div class="card p-3">
-						<div class="d-flex align-items-center">
-							<span class="stamp stamp-md bg-success mr-3">
-								<i class="fas fa-user-friends"></i>
-							</span>
-							<div>
-								<h5 class="mb-1"><b><a href="#">9035 <small>Pasien</small></a></b></h5>
-								<small class="text-muted">12 Sedang Dilayani</small>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<div class="card p-3">
-						<div class="d-flex align-items-center">
-							<span class="stamp stamp-md bg-danger mr-3">
-								<i class="fa fa-stethoscope"></i>
-							</span>
-							<div>
-								<h5 class="mb-1"><b><a href="#">27 <small>Tindakan</small></a></b></h5>
-								<small class="text-muted">9035 Penindakan</small>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-lg-3">
-					<div class="card p-3">
-						<div class="d-flex align-items-center">
-							<span class="stamp stamp-md bg-warning mr-3">
-								<i class="fa fa-mortar-pestle"></i>
-							</span>
-							<div>
-								<h5 class="mb-1"><b><a href="#">24580 <small>Transaksi Obat</small></a></b></h5>
-								<small class="text-muted">166 Jenis Obat</small>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
 				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">

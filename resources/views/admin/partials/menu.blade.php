@@ -46,10 +46,9 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <ul>
-                                                    <li><a href="integrasiBPJS.html">Integrasi BPJS</a>
+                                                    <li><a href="/admin/integrasiBpjs" class="{{ ($bmenu === "bpjs") ? 'text-info' : '' }}">Integrasi BPJS</a>
                                                     </li>
-                                                    <li><a href="integrasiSatuSehat.html">Integrasi SatuSehat</a></li>
-                                                    
+                                                    <li><a href="/admin/integrasiSatusehat" class="{{ ($bmenu === "satusehat") ? 'text-info' : '' }}">Integrasi SatuSehat</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -60,15 +59,15 @@
                         <div class="col-group col-md-4">
                             <p class="category-heading">Kasir</p>
                             <ul class="submenu-item">
-                                <li><a href="transaksiKasir.html">Transaksi Kunjungan</a></li>
-                                <li><a href="serahTerimaObat.html">Transaksi Obat</a></li>
+                                <li><a href="/admin/transaksiKunjungan" class="{{ ($bmenu === "tkunjungan") ? 'text-info' : '' }}">Transaksi Kunjungan</a></li>
+                                <li><a href="/admin/transaksiObat" class="{{ ($bmenu === "tobat") ? 'text-info' : '' }}">Transaksi Obat</a></li>
                             </ul>
                         </div>
                         <div class="col-group col-md-4">
                             <p class="category-heading">Farmasi</p>
                             <ul class="submenu-item">
-                                <li><a href="daftarObat.html">Daftar Obat</a></li>
-                                <li><a href="transaksiObat.html">Daftar Alkes</a></li>
+                                <li><a href="/admin/obat" class="{{ ($bmenu === "mobat") ? 'text-info' : '' }}">Daftar Obat</a></li>
+                                <li><a href="/admin/alkes" class="{{ ($bmenu === "malkes") ? 'text-info' : '' }}">Daftar Alkes</a></li>
                             </ul>
                         </div>
                     </div>
@@ -100,7 +99,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="nav-item submenu">
+            <li class="nav-item submenu {{ ($amenu === "laporan") ? 'active' : '' }}">
                 <a class="nav-link" href="#">
                     <i class="link-icon icon-book-open"></i>
                     <span class="menu-title">Laporan</span>
@@ -108,21 +107,18 @@
                 <div class="navbar-dropdown animated fadeIn">
                     <ul>
                         <li>
-                            <a href="#">Laporan Pendapatan</a>
+                            <a href="/admin/laporanPendapatan" class="{{ ($bmenu === "lpendapatan") ? 'text-info' : '' }}">Laporan Pendapatan</a>
                         </li>
                         <li>
-                            <a href="#">Laporan Kunjungan</a>
+                            <a href="/admin/laporanKunjungan" class="{{ ($bmenu === "lkunjungan") ? 'text-info' : '' }}">Laporan Kunjungan</a>
                         </li>
                         <li>
-                            <a href="#">Laporan Penyakit</a>
-                        </li>
-                        <li>
-                            <a href="#">Laporan Obat & Alkes</a>
+                            <a href="/admin/laporanObat" class="{{ ($bmenu === "lobat") ? 'text-info' : '' }}">Laporan Obat & Alkes</a>
                         </li>
                     </ul>
                 </div>
             </li>
-            <li class="nav-item submenu">
+            <li class="nav-item submenu {{ ($amenu === "grafik") ? 'active' : '' }}">
                 <a class="nav-link" href="#">
                     <i class="link-icon icon-pie-chart"></i>
                     <span class="menu-title">Grafik</span>
@@ -130,17 +126,9 @@
                 <div class="navbar-dropdown animated fadeIn">
                     <ul>
                         <li>
-                            <a href="#">Grafik Pendapatan</a>
+                            <a href="/admin/grafikDashboard" class="{{ ($bmenu === "gdashboard") ? 'text-info' : '' }}">Grafik Dashboard</a>
                         </li>
-                        <li>
-                            <a href="#">Grafik Kunjungan</a>
-                        </li>
-                        <li>
-                            <a href="#">Grafik Penyakit</a>
-                        </li>
-                        <li>
-                            <a href="#">Grafik Obat & Alkes</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </li>
@@ -151,10 +139,10 @@
                 </a>
                 <div class="navbar-dropdown animated fadeIn">
                     <ul>
-                        <li><a href="kamusObat.html">Kamus Obat Elektronik</a></li>
-                        <li><a href="programPelatihan.html">Pelatihan Integrasi</a></li>
-                        <li><a href="programPelatihan.html">Pelatihan Pengguna Aplikasi</a></li>
-                        <li><a href="programPelatihan.html">Riwayat Versi Sistem</a></li>
+                        <li><a href="#">Kamus Obat Elektronik</a></li>
+                        <li><a href="#">Pelatihan Integrasi</a></li>
+                        <li><a href="#">Pelatihan Pengguna Aplikasi</a></li>
+                        <li><a href="#">Riwayat Versi Sistem</a></li>
                         <li><a href="/admin/jadwalDokter" class="{{ ($bmenu === "jadwaldokter") ? 'text-info' : '' }}">Jadwal Dokter</a></li>
                         <li><a href="{{ url('https://wa.me/087878789429') }}"  target="_blank">Customer Service</a></li>
                         

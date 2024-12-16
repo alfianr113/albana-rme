@@ -94,7 +94,7 @@
                                         <tr>
                                             <td>01</td>
                                             <td>00-00-90-33</td>
-                                            <td>MINAMI HAMABE</td>
+                                            <td>Nn. Minami Hamabe</td>
                                             <td><center>09:17:58</center></td>
                                             <td class="bg-success" style="color: white"><center>Sedang Dilayani</center></td>
                                             <td>
@@ -103,9 +103,9 @@
                                                     <a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+													<a href="/admin/anamnesis" type="button" class="btn btn-info btn-sm btn-border ml-1" >
 														<i class="fas fa-paper-plane"></i>
-													</button>
+                                                    </a>
 													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
 													</button>
@@ -119,7 +119,7 @@
                                         <tr>
                                             <td>02</td>
                                             <td>00-00-90-42</td>
-                                            <td>ALFIAN RAHMAN</td>
+                                            <td>Tn. Alfian Rahman</td>
                                             <td><center>08:12:02</center></td>
                                             <td class="bg-info" style="color: white"><center>Selesai Dilayani</center></td>
                                             <td>
@@ -128,9 +128,9 @@
                                                     <a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+													<a href="/admin/anamnesis" type="button" class="btn btn-info btn-sm btn-border ml-1" >
 														<i class="fas fa-paper-plane"></i>
-													</button>
+                                                    </a>
 													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
 													</button>
@@ -144,7 +144,7 @@
                                         <tr>
                                             <td>03</td>
                                             <td>00-00-87-12</td>
-                                            <td>BAYU SUPRIATNA</td>
+                                            <td>Tn. Bayu Supriatna</td>
                                             <td><center>08:00:43</center></td>
                                             <td class="bg-danger" style="color: white"><center>Dibatalkan</center></td>
                                             <td>
@@ -153,9 +153,9 @@
                                                     <a href="/admin/detailPasien" type="button" class="btn btn-secondary btn-sm btn-border ml-1" >
 														<i class="fas fa-eye"></i>
 													</a>
-													<button type="button" class="btn btn-info btn-sm btn-border ml-1" >
+													<a href="/admin/anamnesis" type="button" class="btn btn-info btn-sm btn-border ml-1" >
 														<i class="fas fa-paper-plane"></i>
-													</button>
+                                                    </a>
 													<button type="button" class="btn btn-success btn-sm btn-border ml-1" >
 														<i class="fas fa-check"></i>
 													</button>

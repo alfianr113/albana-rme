@@ -28,6 +28,7 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/atlantis2.css') }}">
+    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
 </head>
 
 <body>
@@ -86,6 +87,10 @@
     <script src="{{ asset('js/plugin/webfont/webfont.min.js') }}"></script>
     <!-- Sweet Alert -->
     <script src="{{ asset('js/plugin/sweetalert/sweetalert.min.js') }}"></script>
+    <!-- Chart JS -->
+    <script src="{{ asset('js/plugin/chart.js/chart.min.js') }}"></script>
+    <!-- Chart Circle -->
+    <script src="{{ asset('js/plugin/chart-circle/circles.min.js') }}"></script>
     <!-- Atlantis JS -->
     <script src="{{ asset('js/atlantis2.min.js') }}"></script>
     <script>
@@ -571,5 +576,157 @@
 			fillColor: 'rgba(255, 165, 52, .14)'
 		});
 	</script>
+    <script>
+        // Data untuk grafik Pasien
+        const ctxPenjualan = document.getElementById('chartPasien1').getContext('2d');
+        const chartPenjualan = new Chart(ctxPenjualan, {
+            type: 'line',
+            data: {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                    label: "Pasien Daftar",
+                    data: [101, 54, 36, 25, 24, 37, 44, 32, 25, 26, 11, 10],
+                    borderColor: "#1d7af3",
+                    backgroundColor: "rgba(29, 122, 243, 0.2)",
+                    borderWidth: 2,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+
+        // Data untuk grafik Kunjungan
+        const ctxKunjungan2 = document.getElementById('chartObat').getContext('2d');
+        const chartKunjungan2 = new Chart(ctxKunjungan2, {
+            type: 'bar',
+            data: {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                    label: "Obat Masuk",
+                    data: [249, 810, 485, 964, 216, 228, 543, 692, 352, 341, 594, 451],
+                    backgroundColor: "#59d05d",
+                    borderColor: "#45b34a",
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+		// Data untuk grafik Kunjungan
+        const ctxKunjungan = document.getElementById('chartKunjungan').getContext('2d');
+        const chartKunjungan = new Chart(ctxKunjungan, {
+            type: 'line',
+            data: {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                    label: "Kunjungan Pasien",
+                    data: [1532, 1723, 1890, 2501, 3210, 2102, 2432, 2512, 2723, 1821, 1921, 2001],
+                    backgroundColor: "rgba(29, 122, 243, 0.2)",
+                    borderColor: "#1d7af3",
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+		// Data untuk grafik Kunjungan
+        const ctxKunjungan3 = document.getElementById('chartObatKeluar').getContext('2d');
+        const chartKunjungan3 = new Chart(ctxKunjungan3, {
+            type: 'bar',
+            data: {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                    label: "Obat Keluar",
+                    data: [300, 450, 500, 350, 400, 600, 700, 800, 750, 900, 850, 950],
+                    backgroundColor: "#59d05d",
+                    borderColor: "#45b34a",
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+		// Data untuk grafik Kunjungan
+        const ctxKunjungan4 = document.getElementById('chartPendapatan').getContext('2d');
+        const chartKunjungan4 = new Chart(ctxKunjungan4, {
+            type: 'bar',
+            data: {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                datasets: [{
+                    label: "Pendapatan Rupiah",
+                    data: [3250000, 4550000, 2155500, 9250000, 7750000, 9258000, 9258000, 8258000, 7258000, 8258000, 11235500, 10258000],
+                    backgroundColor: "#59d05d",
+                    borderColor: "#45b34a",
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>

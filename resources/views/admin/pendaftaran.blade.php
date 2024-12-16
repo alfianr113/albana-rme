@@ -171,7 +171,7 @@
 										<tr>
 											<td>2</td>
 											<td>00-00-90-34</td>
-											<td style="text-align: left;">SUDARI</td>
+											<td style="text-align: left;">Tn. Sudari</td>
 											<td>Poli Umum</td>
 											<td>01 - 11 - 1973</td>
 											<td>
@@ -191,7 +191,7 @@
 										<tr>
 											<td>3</td>
 											<td>00-00-90-33</td>
-											<td style="text-align: left;">RICKY TOGU HAHOLONGAN GULTOM</td>
+											<td style="text-align: left;">Tn. Ricky Togu Haholongan Gultom</td>
 											<td>Poli Gigi</td>
 											<td>31 - 03 - 1979</td>
 											<td>
@@ -211,7 +211,7 @@
 										<tr>
 											<td>4</td>
 											<td>00-00-90-32</td>
-											<td style="text-align: left;">MUHAMMAD ARIEF</td>
+											<td style="text-align: left;">Tn. Muhammad Arief</td>
 											<td>Poli Gigi</td>
 											<td>11 - 09 - 1994</td>
 											<td>
@@ -231,7 +231,7 @@
 										<tr>
 											<td>5</td>
 											<td>00-00-90-31</td>
-											<td style="text-align: left;">SATIAWATI</td>
+											<td style="text-align: left;">Ny. Satiawati</td>
 											<td>Poli Gigi</td>
 											<td>15 - 02 - 1978</td>
 											<td>
@@ -251,7 +251,7 @@
 										<tr>
 											<td>6</td>
 											<td>00-00-90-30</td>
-											<td style="text-align: left;">MUHAMAD ADAM RIZKI HASAN </td>
+											<td style="text-align: left;">Tn. Muhamad Adam Rizki Hasan </td>
 											<td>Poli Umum</td>
 											<td>26 - 07 - 2005</td>
 											<td>
@@ -271,7 +271,7 @@
 										<tr>
 											<td>7</td>
 											<td>00-00-90-29</td>
-											<td style="text-align: left;">SITI RAHMAWATI RAMADANTI</td>
+											<td style="text-align: left;">Nn. Siti Rahmawati Ramadanti</td>
 											<td>Poli Umum</td>
 											<td>25 - 09 - 2007</td>
 											<td>
@@ -291,7 +291,7 @@
 										<tr>
 											<td>8</td>
 											<td>00-00-90-28</td>
-											<td style="text-align: left;">ELIDA</td>
+											<td style="text-align: left;">Nn. Elida</td>
 											<td>Poli Umum</td>
 											<td>04 - 05 - 1983</td>
 											<td>
@@ -311,7 +311,7 @@
 										<tr>
 											<td>9</td>
 											<td>00-00-90-27</td>
-											<td style="text-align: left;">ZEA AZUCENA </td>
+											<td style="text-align: left;">Ny. Zea Azucena</td>
 											<td>Poli Umum</td>
 											<td>04 - 05 - 2020</td>
 											<td>
@@ -331,7 +331,7 @@
 										<tr>
 											<td>10</td>
 											<td>00-00-90-26</td>
-											<td style="text-align: left;">USEP HERMANTO</td>
+											<td style="text-align: left;">Tn. Usep Hermanto</td>
 											<td>Poli Umum</td>
 											<td>04 - 08 - 1992</td>
 											<td>
